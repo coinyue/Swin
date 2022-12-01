@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node 2 --master_port 12325  main.py --cfg /data/home/syq/swi/configs/swin/swin_tiny_patch4_window7_224.yaml --data-path /data/HER2_data/marked_data/model1_patch_20x_1 --batch-size 128
